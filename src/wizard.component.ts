@@ -115,4 +115,7 @@ export class WizardComponent implements OnInit, AfterContentInit {
     this._isCompleted = true;
   }
 
+  noComplete(){
+    this._isCompleted = false;
+  }
 }
